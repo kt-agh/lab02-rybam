@@ -2,14 +2,11 @@
 #include <iostream>
 using namespace std;
 
-//To jest komentaż do tego pliku. Ten plik jest ewidentnie źle fsormatowany i należy to koniecznie poprawić, pamiętając o nazwach zmiennych
-//dopuszczalnej długości linii, znakach z kodu ANSI, wcięciach i dbalości o wsykoiehj jakosci kometarze
-
     int main() { 
-         int PierwszaZmienna=5;
-         int Drugazmienna=7;
-         int WynikDziałania=PierwszaZmienna+Drugazmienna;
+         int i=5;
+         int j=7;
+         int a=i+j;
 
-             cout <<"Wynik Dodawania Dwóch Liczb To:"<<WynikDziałania<<endl; // Wypisuje wynik dzialania
+             cout <<"Wynik Dodawania Dwóch Liczb To:"<<a<<endl; // Wypisuje wynik dzialania
   return 0;
 }
